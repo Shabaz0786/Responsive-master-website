@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Gilroy' ;
+    src: url(./fonts/Gilroy/GILROY-BOLD.OTF);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gilroy' ;
+    src: url(./fonts/Gilroy/GILROY-MEDIUM.OTF);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy' ;
+    src: url(./fonts/Gilroy/GILROY-REGULAR.OTF);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Gilroy' ;
+    src: url(./fonts/Gilroy/GILROY-LIGHT.OTF);
+    font-weight: 100;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: .5vmax;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(82, 78, 78);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100%;
+}
+
+
